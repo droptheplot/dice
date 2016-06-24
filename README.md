@@ -18,3 +18,7 @@ Rehearsal ----------------------------------------------
 300 x 300    0.270000   0.000000   0.270000 (  0.277111)
 500 x 500    0.770000   0.010000   0.780000 (  0.787158)
 ```
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
