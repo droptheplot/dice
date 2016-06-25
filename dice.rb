@@ -23,8 +23,8 @@ module Dice
     # @return [Hash{ Integer => Hash { Integer => Float } }]
     attr_reader :cache
 
-    def initialize
-      @cache = Dice::Store.new
+    def initialize(options = {})
+      @cache = options.fetch(:store, Dice::Store.new)
     end
 
     # Calculate probability
